@@ -1,83 +1,67 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en-us">
 
 <head>
-
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen"/>
-	<title> Contact Me </title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ryan Lee</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body style="background-image:url('assets/images/round.png')">
-	
-	<header>
+<body>
 
-		<div id="redirect">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Ryan Lee</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-				<nav>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-					<ul>
-						<li><a href="index.html"> <p>About</p> </a> </li>
-						<li><a href="portfolio.html"> <p>Portfolio</p> </a> </li>
-						<li><a href="contact.html"> <p>Contact</p> </a> </li>
-					</ul>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-				</nav>
+    </section>
 
-			</div>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-		<h1> Ryan Lee </h1>
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
 
-	</header>
-	
-	<div class="container">
-
-		<section id="about-me">
-
-			<h2> Contact </h2>
-
-				<form method="post" action="mailto:marble92@sbcglobal.net">
-
-					<label for="name">Name</label>
-					<input type="text" id="name" name="name" placeholder="John Smith">
-					<label for="email">Email</label>
-					<input type="text" id="email" name="email" placeholder="example@gmail.com">
-					<label for="subject">Message</label>
-					<textarea id="subject" name="subject" style="height:200px"></textarea>
-					<input type="submit" value="Submit">
-					
-				</form>
-
-		</section>
-
-		<section id="contact-me">
-
-			<h3> Connect with Me </h3>
-			
-				<div id="icons">
-				
-				<a href="https://github.com/Harpsichord92"><img id="github" src="assets/images/GitHub-Mark-64px.png" alt="GitHub"/></a>
-
-				<a href="https://www.linkedin.com/in/ryan-lee-867b46147/"><img id="linked" src="assets/images/In-2C-66px-R.png" alt="LinkedIn"/></a>
-
-				<a href="https://stackoverflow.com/users/8815853/harpsichord"><img id="stack" src="assets/images/so-icon.png" alt="StackOverflow"/></a>
-
-				</div>
-
-		</section>
-	</div>
-
-	<div>
-
-		<section id="footerc">
-
-			<h4> &#9400; Copyright 2017 Ryan Lee </h4>
-
-		</section>
-	
-	</div>
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Ryan Lee
+    </div>
+  </footer>
 </body>
+
 </html>
