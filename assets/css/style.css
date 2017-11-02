@@ -239,10 +239,6 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  p {
-    clear: both;
-
-  }
 
   .auth-image {
     margin-left: 50px;
@@ -272,10 +268,72 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
 
+  .main-section {
+    width: 100%;
+    margin-left: 20px;
+    max-width: 700px;
+    float: left;
+  }
+
+  .auth-image {
+    margin-left: 0px;
+    float: left;
+  }  
+
+  .sidebar {
+    max-width: 700px;
+    float: left;
+    margin-left: 20px;
+  }
+
+  nav {
+    margin-right: 20px;
+  }
+
+  #logo {
+    margin-left: 20px;
+  }
+
 }
 
 @media screen and (max-width: 640px) {
   header {
     position: static;
+  }
+
+  #logo {
+    width: 640px;
+    margin-left: 0px;
+  }
+
+    nav {
+    margin: 10px;
+    padding-right: 125px;
+  }
+
+  nav a {
+    padding-left: 45px;
+    margin-left: 45px;
+  }
+
+  .main-section {
+    margin-top: 40px;
+    max-width: 580px;
+    margin-left: 28px;
+  }
+
+  p {
+    float: left;
+  }
+
+  .auth-image {
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .sidebar {
+    max-width: 580px;
+    margin-left: 28px;
   }
 }
