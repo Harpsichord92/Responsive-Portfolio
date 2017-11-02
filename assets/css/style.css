@@ -264,6 +264,10 @@ input[type=submit] {
     margin-left: 80px;
   }
 
+  .work {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -292,6 +296,12 @@ input[type=submit] {
 
   #logo {
     margin-left: 20px;
+  }
+
+  .work {
+    width: 295px;
+    height: auto;
+    float: left;
   }
 
 }
@@ -335,5 +345,11 @@ input[type=submit] {
   .sidebar {
     max-width: 580px;
     margin-left: 28px;
+  }
+
+   .work {
+    width: 100%;
+    height: auto;
+    float: left;
   }
 }
