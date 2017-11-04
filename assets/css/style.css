@@ -107,6 +107,9 @@ footer {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 /* sidebar */
